@@ -1,5 +1,4 @@
 label: Magento Functional Testing Framework Guide version 2.3
-versions: ["2.3"]
 pages:
 
   - label: Introduction
@@ -55,11 +54,15 @@ pages:
   - label: Configuration
     url: /magento-functional-testing-framework/2.3/configuration.html
 
+  - label: Credentials
+    url: /magento-functional-testing-framework/2.3/credentials.html
+
   - label: CLI Commands
     children:
 
       - label: mftf
         url: /magento-functional-testing-framework/2.3/commands/mftf.html
+
       - label: codecept
         url: /magento-functional-testing-framework/2.3/commands/codeception.html
 
