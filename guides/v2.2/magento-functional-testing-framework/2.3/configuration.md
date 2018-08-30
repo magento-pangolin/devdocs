@@ -142,3 +142,8 @@ FW_BP is an acronym for FrameWork BasePath.
 
 Use the `MODULE_WHITELIST` environment variable if you are working on a new module.
 When adding a new directory under `Magento/FunctionalTest`, add the directory name under `MODULE_WHITELIST` to enable the MFTF to process it.
+
+# Credentials
+The _.credentials_ file provides the ability to store credentials for use in a test, such as integration tokens or passwords.
+Data is stored in the credential file must be stored as `KEY=VALUE`, and can be referenced in any `fillField` action.
+See `Sensitive Data` in <LINK TO DATA TOPIC> for more information.
