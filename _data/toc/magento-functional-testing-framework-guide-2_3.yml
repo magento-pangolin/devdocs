@@ -63,6 +63,10 @@ pages:
     url: /mftf/2.3/merging.html
     versionless: true
 
+  - label: Debugging
+    url: /mftf/2.3/debugging.html
+    versionless: true
+
   - label: Extending
     url: /mftf/2.3/extending.html
     versionless: true
